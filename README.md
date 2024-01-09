@@ -2,6 +2,11 @@
 The Generative AOD Adversarial Neural Network (GANN) is a neural network model used for satellite aerosol optical depth (AOD) retrieval. 
 
 The GANN_Train.py can be used to train your GANN model based on your sample. The flowing Sample section provides some data as an example.
+
+Our aim is the improvement of accuracy and precision in the satellite remote sensing parameter retrieval based on machine learning.
+
+If you have any questions about the code or data, please contact us by email: fyl1217@outlook.com.
+
 # Train flow
 
 GANN construction：
