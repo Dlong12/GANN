@@ -14,4 +14,4 @@ GANN training flow：
 
 The data named '2014_2018_sample_550_Selection.csv' is the AOD samples matching Terra (MODIS) and AERONET sites from 2014 to 2018 worldwide.
 
-![image](image.jpg)
+![image](image.png)
