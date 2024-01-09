@@ -7,7 +7,7 @@ Our aim is the improvement of accuracy and precision in the satellite remote sen
 
 If you have any questions about the code or data, please contact us by email: fyl1217@outlook.com.
 
-# Train flow
+# Training flow
 
 GANN construction：
 ![image](Model.png.jpg)
@@ -17,6 +17,6 @@ GANN training flow：
 
 # Sameple example
 
-The data named '2014_2018_sample_550_Selection.csv' is the AOD samples matching Terra (MODIS) and AERONET sites from 2014 to 2018 worldwide.
+The data named '2014_2018_sample_550_Selection.csv' is the AOD samples matching Terra (MODIS) and AERONET sites from 2014 to 2018 worldwide. In addition, there are Meteorological data, such as temperature, pressure， U-wind and V-wind， that can be used to improve the accuracy of AOD retrieval.
 
 ![image](image.png)
