@@ -96,7 +96,12 @@ data_aod_pd['NDVI'] = (data_aod_pd['b5'] - data_aod_pd['b7']) / (data_aod_pd['b5
 data_aod_pd = data_aod_pd[
     ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'NDVI', 'sz', 'vz', 'ra', 'Site_Elevation(m)', 'AOD_AERONET']]
 dense_feature = ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'NDVI', 'sz', 'vz', 'ra', 'Site_Elevation(m)']
-
+### using Meteorological data
+# data_aod_pd = data_aod_pd[
+#     ['b1_apr', 'b2_apr', 'b3_apr', 'b4_apr', 'b5_apr', 'b6_apr', 'b7_apr', 'NDVI', 'sz', 'vz',
+#      'Site_Latitude(Degrees)', 'Site_Longitude(Degrees)', 'Site_Elevation(m)','sp','tm','u10','v10', 'AOD_500nm']]
+# dense_feature = ['b1_apr', 'b2_apr', 'b3_apr', 'b4_apr', 'b5_apr', 'b6_apr', 'b7_apr', 'NDVI', 'sz', 'vz',
+#                  'Site_Latitude(Degrees)', 'Site_Longitude(Degrees)','Site_Elevation(m)','sp','tm','u10','v10']
 nms = MinMaxScaler(feature_range=(0, 1))
 data_aod_pd[dense_feature] = nms.fit_transform(data_aod_pd[dense_feature])
 joblib.dump(nms, MinMaxScaler_savepath)
