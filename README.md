@@ -4,10 +4,10 @@ The Generative AOD Adversarial Neural Network (GANN) is a neural network model u
 # Train flow
 
 GANN construction：
-![image](GANN/Model.png.jpg)
+![image](Model.png.jpg)
 
 GANN training flow：
-![image](GANN/Trainingflow.png.jpg)
+![image](Training_flow.png.jpg)
 
 # Sameple
 
